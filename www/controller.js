@@ -191,8 +191,8 @@ angular.module('app').controller('DetailController', function($scope, $http) {
 
   // Foursquare api keys
     // do not remove " "
-    var clientID = " Your keys ";
-    var clientSecret = " your keys ";
+    var clientID = "VWETRJAX5214JFN1P5GVIKBVR5DG0W2R3P5V0IZ2GPHH1DDY";
+    var clientSecret = "V5QCXXTFSTUE52C5XHDCC1M4KE5QZXLCYTLGDDOSF3SLJ3E3";
 
   $http.get(
     "https://api.foursquare.com/v2/venues/" +
